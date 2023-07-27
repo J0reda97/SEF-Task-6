@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <h1 class="my-5">Choose your products</h1>
+        <div class="row gap-4 justify-content-center my-5">
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/monitor.webp" class="card-img-top img-fluid" alt="Monitor">
+                <div class="card-body">
+                    <button price="5000" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="5000$"><i class="fas fa-desktop"></i>
+                        Monitor</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/mouse.webp" class="card-img-top img-fluid" alt="Mouse">
+                <div class="card-body">
+                    <button price="500" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="500$"><i class="fas fa-mouse"></i>
+                        Mouse</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/keyboard.webp" class="card-img-top img-fluid" alt="Keyboard">
+                <div class="card-body">
+                    <button price="500" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="500$"><i class="fas fa-keyboard"></i>
+                        Keyboard</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/mic.webp" class="card-img-top img-fluid" alt="Microphone">
+                <div class="card-body">
+                    <button price="3000" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="3000$"><i class="fas fa-microphone"></i>
+                        Microphone</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/headset.webp" class="card-img-top img-fluid" alt="Headset">
+                <div class="card-body">
+                    <button price="1000" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="1000$"><i class="fas fa-headphones"></i>
+                        Headset</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/case.jpg" class="card-img-top img-fluid" alt="Case">
+                <div class="card-body">
+                    <button price="10000" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="10000$"><i class="fas fa-computer"></i>
+                        Case</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/webcam.jpg" class="card-img-top img-fluid" alt="Webcam">
+                <div class="card-body">
+                    <button price="500" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="500$"><i class="fas fa-video"></i>
+                        Webcam</button>
+                </div>
+            </div>
+            <div class="card" style="width: 16rem;">
+                <img src="imgs/labtop.jpg" class="card-img-top img-fluid" alt="Laptop">
+                <div class="card-body">
+                    <button price="20000" class="btn btn-outline-secondary btn-main" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="20000$"><i class="fas fa-laptop"></i>
+                        Laptop</button>
+                </div>
+            </div>
+        </div>
+        <div class="my-5 gap-2  justify-content-center  row" id="cart"></div>
+        <button id="calc" type="button" class="btn btn-outline-primary">Calculate Price</button>
+        <div class="my-5" id="result"></div>
+    </div>
+    <script src="https://kit.fontawesome.com/ffb45ac8d1.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

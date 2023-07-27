@@ -1,0 +1,9 @@
+.btn-main {
+    width: fit-content;
+    border: 1px solid #777;
+
+}
+
+.btn-main:hover {
+    border-color: #777;
+}
